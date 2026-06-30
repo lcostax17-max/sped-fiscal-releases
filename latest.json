@@ -1,0 +1,7 @@
+{
+  "versao": "1.23",
+  "notas": "- Auto-atualizacao: o programa avisa quando ha versao nova, mostra o que muda e so atualiza se voce aceitar (nunca atualiza escondido).\n- Botao \"Procurar atualizacao do programa\" na aba Atualizacoes.\n- Historico completo no CHANGELOG.",
+  "url_instalador": "https://github.com/lcostax17-max/sped-fiscal-releases/releases/latest/download/GeradorSPED_Setup.exe",
+  "sha256": "5ba374c9712d8690a60aea1f9274106680c2f993cb547afcd5393c5830f91b60",
+  "obrigatoria": false
+}
