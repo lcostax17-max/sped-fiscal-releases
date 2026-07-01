@@ -1,7 +1,7 @@
 {
-  "versao": "1.23",
-  "notas": "- Auto-atualizacao: o programa avisa quando ha versao nova, mostra o que muda e so atualiza se voce aceitar (nunca atualiza escondido).\n- Botao \"Procurar atualizacao do programa\" na aba Atualizacoes.\n- Historico completo no CHANGELOG.",
+  "versao": "1.24",
+  "notas": "- Conferencia mais forte (o que o PVA nao pega): avisa/bloqueia credito de ICMS em uso/consumo/ativo, CST 40/41/50 com ICMS destacado, e problemas de hierarquia/ordem dos registros (ex.: ordem do bloco M).\n- Historico completo no CHANGELOG.",
   "url_instalador": "https://github.com/lcostax17-max/sped-fiscal-releases/releases/latest/download/GeradorSPED_Setup.exe",
-  "sha256": "5ba374c9712d8690a60aea1f9274106680c2f993cb547afcd5393c5830f91b60",
+  "sha256": "5140513b41f4f020adc9b5e07895f52fc5b7116b48b02a8260735a7afb862a85",
   "obrigatoria": false
 }
