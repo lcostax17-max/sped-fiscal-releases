@@ -1,7 +1,7 @@
 {
-  "versao": "1.28",
-  "notas": "- Tira as advertencias do PVA em notas de compra com bonificacao/brinde: o item de brinde passa a lancar o abatimento tambem no proprio item, batendo com o total da nota.\n- A aba \"XMLs\" agora acha tambem os SPED e o livro gerados de cada mes (filtro \"SPED / LIVRO\"). Regerar o mes salva por cima, sem duplicar.\n- Historico completo no CHANGELOG.",
+  "versao": "1.29",
+  "notas": "- Corrige a lentidao para abrir o programa e a interface travando: a aba XMLs montava centenas de linhas na abertura (~11 s) e agora usa uma tabela, que aparece na hora.\n- A busca lista todos os resultados (sem limite) - selecione a linha e use Abrir / Abrir pasta, ou de duplo clique.\n- Historico completo no CHANGELOG.",
   "url_instalador": "https://github.com/lcostax17-max/sped-fiscal-releases/releases/latest/download/GeradorSPED_Setup.exe",
-  "sha256": "0769134f79c71cf0abb5734f267d2c315ab56025cb5fc7634049d4143363c9e3",
+  "sha256": "4b11506a8d719da6253279181195f1494597b1abfed0a7bbc82601e9bb615383",
   "obrigatoria": false
 }
