@@ -1,7 +1,7 @@
 {
-  "versao": "1.26",
-  "notas": "- Os XML arquivados agora ficam separados por tipo dentro da pasta do mes: NF DE COMPRA, CUPOM FISCAL e NF DE VENDA.\n- Nova aba \"XMLs\": procure qualquer nota ja arquivada por numero, chave, fornecedor, CNPJ ou valor, e abra o arquivo ou a pasta direto pelo sistema.\n- Botao \"Reindexar\" cataloga tambem os meses arquivados antes desta versao.\n- Historico completo no CHANGELOG.",
+  "versao": "1.27",
+  "notas": "- Corrige o erro \"Failed to load Python DLL\" que aparecia ao abrir o programa.\n- O programa abre bem mais rapido: os arquivos do Python agora ficam instalados junto dele, sem descompactar ~28 MB na pasta temporaria a cada abertura (era ai que o antivirus atrapalhava).\n- Inclui tambem a v1.26: XML separados por tipo (NF DE COMPRA / CUPOM FISCAL / NF DE VENDA) e a nova aba \"XMLs\" para procurar qualquer nota pelo proprio sistema.\n- Historico completo no CHANGELOG.",
   "url_instalador": "https://github.com/lcostax17-max/sped-fiscal-releases/releases/latest/download/GeradorSPED_Setup.exe",
-  "sha256": "94f2d388d41ff3ab7284a11b09ef2815135aa7212adc46131c5ae54707cfa264",
+  "sha256": "d681caf670ac4707f3eb9830335f3388fa725a4432672756cd15915adabd6b2b",
   "obrigatoria": false
 }
