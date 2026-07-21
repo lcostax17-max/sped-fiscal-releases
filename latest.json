@@ -1,7 +1,7 @@
 {
-  "versao": "1.25",
-  "notas": "- Corrige notas de compra com bonificacao/brinde: itens com indTot=0 (que o fornecedor nao soma no total da nota) agora entram no VL_MERC, e o valor vai no VL_ABAT_NT. Antes o PVA rejeitava com \"VL_MERC deve ser maior ou igual a soma dos itens dos C170\".\n- A conferencia passa a pegar isso sozinha, antes do PVA.\n- Historico completo no CHANGELOG.",
+  "versao": "1.26",
+  "notas": "- Os XML arquivados agora ficam separados por tipo dentro da pasta do mes: NF DE COMPRA, CUPOM FISCAL e NF DE VENDA.\n- Nova aba \"XMLs\": procure qualquer nota ja arquivada por numero, chave, fornecedor, CNPJ ou valor, e abra o arquivo ou a pasta direto pelo sistema.\n- Botao \"Reindexar\" cataloga tambem os meses arquivados antes desta versao.\n- Historico completo no CHANGELOG.",
   "url_instalador": "https://github.com/lcostax17-max/sped-fiscal-releases/releases/latest/download/GeradorSPED_Setup.exe",
-  "sha256": "6f3e72271de554c7dced72869b1f8940e426356b59e1ebc06dc8289c775d03de",
+  "sha256": "94f2d388d41ff3ab7284a11b09ef2815135aa7212adc46131c5ae54707cfa264",
   "obrigatoria": false
 }
