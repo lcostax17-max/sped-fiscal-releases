@@ -1,7 +1,7 @@
 {
-  "versao": "1.27",
-  "notas": "- Corrige o erro \"Failed to load Python DLL\" que aparecia ao abrir o programa.\n- O programa abre bem mais rapido: os arquivos do Python agora ficam instalados junto dele, sem descompactar ~28 MB na pasta temporaria a cada abertura (era ai que o antivirus atrapalhava).\n- Inclui tambem a v1.26: XML separados por tipo (NF DE COMPRA / CUPOM FISCAL / NF DE VENDA) e a nova aba \"XMLs\" para procurar qualquer nota pelo proprio sistema.\n- Historico completo no CHANGELOG.",
+  "versao": "1.28",
+  "notas": "- Tira as advertencias do PVA em notas de compra com bonificacao/brinde: o item de brinde passa a lancar o abatimento tambem no proprio item, batendo com o total da nota.\n- A aba \"XMLs\" agora acha tambem os SPED e o livro gerados de cada mes (filtro \"SPED / LIVRO\"). Regerar o mes salva por cima, sem duplicar.\n- Historico completo no CHANGELOG.",
   "url_instalador": "https://github.com/lcostax17-max/sped-fiscal-releases/releases/latest/download/GeradorSPED_Setup.exe",
-  "sha256": "d681caf670ac4707f3eb9830335f3388fa725a4432672756cd15915adabd6b2b",
+  "sha256": "0769134f79c71cf0abb5734f267d2c315ab56025cb5fc7634049d4143363c9e3",
   "obrigatoria": false
 }
