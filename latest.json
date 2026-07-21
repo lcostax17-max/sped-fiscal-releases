@@ -1,7 +1,7 @@
 {
-  "versao": "1.24",
-  "notas": "- Conferencia mais forte (o que o PVA nao pega): avisa/bloqueia credito de ICMS em uso/consumo/ativo, CST 40/41/50 com ICMS destacado, e problemas de hierarquia/ordem dos registros (ex.: ordem do bloco M).\n- Historico completo no CHANGELOG.",
+  "versao": "1.25",
+  "notas": "- Corrige notas de compra com bonificacao/brinde: itens com indTot=0 (que o fornecedor nao soma no total da nota) agora entram no VL_MERC, e o valor vai no VL_ABAT_NT. Antes o PVA rejeitava com \"VL_MERC deve ser maior ou igual a soma dos itens dos C170\".\n- A conferencia passa a pegar isso sozinha, antes do PVA.\n- Historico completo no CHANGELOG.",
   "url_instalador": "https://github.com/lcostax17-max/sped-fiscal-releases/releases/latest/download/GeradorSPED_Setup.exe",
-  "sha256": "5140513b41f4f020adc9b5e07895f52fc5b7116b48b02a8260735a7afb862a85",
+  "sha256": "6f3e72271de554c7dced72869b1f8940e426356b59e1ebc06dc8289c775d03de",
   "obrigatoria": false
 }
